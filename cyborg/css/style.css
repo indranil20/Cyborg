@@ -1,0 +1,481 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f2122 !important;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}   
+
+/* n a v b a r */
+.navbar{
+    padding: 20px 0 !important;
+}
+.logo{
+    border-right: 1px solid #27292a;
+    padding-right: 5%;
+}
+.active{
+    color: #e75e8d !important;
+}
+form button{
+    border-radius: 50px 0 0 50px !important;
+    color: #666 !important;
+    border: 0 !important;
+    background-color: #27292a !important;
+    padding: 7px 12px !important;
+}
+form button:hover{
+    background-color: #27292a !important;
+}
+form input{
+    border-radius: 0px 50px 50px 0px !important;
+    background-color: #27292a !important;
+    border: 0 !important;
+    width: auto !important;
+}
+.nav-link{
+    font-size: 14px;
+    padding: 20px !important;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: #e75e8d !important;
+}
+.profile{
+    background-color: #27292a;
+    padding: 8px 10px 8px 20px !important;
+    margin: 9px 0;
+    border-radius: 50px;
+}
+.profile.active{
+    padding: 8px 10px 8px 20px !important;
+    border-radius: 50px;
+    background-color: #ec6090;
+    color: #fff !important;
+    margin: 11px 0;
+}
+.profile img{
+    border-radius: 20px;
+    width: 30px;
+    margin-left: 10px;
+}
+.profile:hover{
+    background-color: #ec6090;
+    color: #fff !important;
+}
+
+/* b a n n e r */
+.home-page{
+    padding: 60px 50px !important;
+    background-color: #27292a;
+    border-radius: 25px;
+}
+.banner{
+    background-image: url(../imags/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 60px;
+    border-radius: 25px;
+}
+.banner p{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.banner h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.ban-btn{
+    padding-top: 20px;
+}
+.banner h1 span{
+    color: #ec6090;
+}
+.banner a{
+    background-color: #e75e8d;
+    border: 0;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.banner a:hover{
+    background-color: #fff;
+    color: #e75e8d;
+    text-decoration: none;
+}
+
+/* g a l l e r y  */
+.gallery{
+    background-color: #1f2122;
+    margin-top: 60px;
+    border-radius: 25px;
+    padding: 30px;
+}
+.gallery h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.gallery h1 span{
+    color: #ec6090;
+}
+.card{
+    background-color: #27292a !important;
+    padding: 25px 15px;
+    border-radius: 20px !important;
+}
+.card-img{
+    border-radius: 20px !important;
+}
+.card-title{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+.card-title span{
+    float: right;
+    font-weight: 500;
+}
+.card-sub-title{
+    color: white;
+    font-weight: 300;
+    color: #666;
+}
+.card-sub-title span{
+    float: right;
+    font-weight: 500;
+    color: white;
+}
+.bi-star-fill{
+    color: yellow;
+}
+.bi-download{
+    color: #ec6090;
+}
+.main-btn{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -40px;
+}
+.card-btn{
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #ec6090;
+    color: white;
+    font-weight: 500;
+}
+.card-btn:hover{
+    background-color: #fff;
+    color: #e75e8d;
+    text-decoration: none;
+}
+
+/* library */
+.library{
+    height: 485px;
+    overflow-y: auto;
+}
+.library::-webkit-scrollbar{
+    width: 0px;
+}
+.library h1{
+    margin-bottom: 40px !important;
+}
+.game-detail{
+    border-bottom: 1px solid #27292a;
+    padding-bottom: 20px;
+    margin-bottom: 20px !important;
+}
+.game-img{
+    border-radius: 25px;
+    width: 80px;
+    height: 80px;
+}
+.game-title{
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+.game-sub-title{
+    margin-bottom: 5px !important;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+}
+.dis-down{
+    margin-top: 10px;
+    color: #666;
+    border: 1px solid #666;
+    background-color: transparent;
+    padding: 12px 30px;
+    border-radius: 25px;
+}
+.down{
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 12px 30px;
+    border-radius: 25px;
+    color: #e75e8d;
+    border: 1px solid #ec6090;
+}
+.down:hover{
+    background-color: #fff;
+    color: #e75e8d;
+    border: 0;
+}
+.main-btn2{
+    text-align: center;
+    margin-top: 20px;
+    margin-top: -7px;
+}
+
+
+                                                /* b r o w s e */
+
+/* f e a t u r e */
+.feature{
+    background-color: #1f2122;
+    border-radius: 25px;
+    padding: 30px;
+}
+.feature h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.feature h1 span{
+    color: #ec6090;
+}
+.owl-image{
+    border-radius: 25px;
+}
+.top-div{
+    background-color: #1f2122;
+    border-radius: 25px;
+    padding: 30px 25px;
+}
+.top-div h1{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.top-div h1 span{
+    color: #ec6090;
+}
+.icon-btn{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #27292a;
+    border-radius: 25px;
+    padding-left: 11.5px;
+    padding-top: 7px;
+}
+.game-list{
+    border-bottom: 1px solid #27292a;
+    padding-bottom: 10px;
+    margin-bottom: 26px !important;
+}
+.view{
+    color: #e75e8d;
+    font-weight: 500;
+}
+.view:hover{
+    text-decoration: none;
+    color: #e75e8d;
+}
+
+/* l i v e  s t r e a m */
+.live h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    margin: 50px 0;
+}
+.live h1 span{
+    color: #ec6090;
+}
+.inst{
+    padding: 30px;
+    border: 1px solid #444;
+    border-radius: 23px;
+}
+.inst img{
+    border-radius: 30px;
+}
+.inst h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.inst p{
+    color: #666;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.goto{
+    background-color: #ec6090;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+.goto:hover{
+    background-color: #fff;
+    color: #e75e8d;
+    text-decoration: none;
+}
+.text-area img{
+    margin-bottom: 20px;
+}
+.text-area p{
+    width: max-content;
+    display: inline;
+    margin-left: 10px;
+    color: #e75e8d;
+}
+.bi-check-circle-fill{
+    color: #e75e8d;
+}
+
+
+                                                  /* s t r e a m */
+
+.user-list{
+    margin-bottom: 23px !important;
+}
+.user-list p{
+    margin-top: 10px;
+}
+.user-list button{
+    margin-top: 5px;
+    padding: 5px 12px;
+    border: 0; 
+    background-color: #e75e8d;
+    color: #fff;
+    border-radius: 25px;
+}
+.user-list button:hover{
+    background-color: #fff;
+    color: #ec6090;
+}
+
+
+                                            /* d e t a i l s */
+
+.fort-ban img{
+    border-radius: 25px;
+}
+.video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.video i{
+    font-size: 50px;
+    color: #fff;
+}
+.fortnite h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.fort-detail{
+    padding: 10px 30px;
+    background-color: #27292a;
+    border-radius: 25px;
+}
+.bi-hdd-stack-fill{
+    color: #e75e8d;
+}
+.bi-controller{
+    color: #e75e8d;
+}
+.icon-list{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.icon-list li{
+    display: inline-block;
+    width: 23%;
+}
+.fort-img{
+    border-radius: 25px;
+}
+.text{
+    color: #666;
+}
+
+
+                                                /* p r o f i l e */
+
+.bi-eye-fill{
+    color: #e75e8d;
+}
+.offline{
+    margin-top: 30px;
+    padding: 5px 12px;
+    border: 0; 
+    background-color: #e75e8d;
+    color: #fff;
+    border-radius: 25px;
+    width: max-content;
+}
+.profile-img{
+    border-radius: 25px;
+}
+.user-name{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.live-status{
+    color: #666;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.game-status-div{
+    background-color: #27292a;
+    padding: 30px;
+    border-radius: 25px;
+}
+.game-status{
+    border-bottom: 1px solid #666;
+}
+
+
+                                                 /* f o o t e r */
+footer{
+    color: white;
+    padding: 40px 0 30px 0;
+    text-align: center;
+    font-weight: 400;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: #e75e8d;
+    text-decoration: none;
+}

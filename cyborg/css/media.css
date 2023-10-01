@@ -1,0 +1,70 @@
+@media (max-width:420px){
+    .card-btn{
+        font-size: 3.2vw;
+    }
+}
+@media (max-width:450px){
+    .gallery h1{
+        font-size: 20px !important;
+    }
+    .banner h1{
+        font-size: 25px !important;
+    }
+    .banner p{
+        font-size: 14px !important;
+    }
+}
+@media (max-width:510px) and (min-width:450px){
+    .gallery h1{
+        font-size: 25px !important;
+    }
+    .banner h1{
+        font-size: 25px !important;
+    }
+    .banner p{
+        font-size: 16px !important;
+    }
+}
+@media (max-width:575.98px){
+    .banner h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:767.98px){
+    .banner{
+        text-align: center;
+    }
+    .gallery h1{
+        font-size: 30px;
+    }
+}
+@media (max-width:991.89px){
+    form{
+        display: none !important;
+    }
+    .profile{
+        padding: 20px 0 !important;
+        margin: 0 !important;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .profile:hover{
+        background-color: transparent;
+        color: #e75e8d;
+    }
+    .profile.active{
+        padding: 20px 0 !important;
+        border-radius: 0px;
+        background-color: transparent;
+        color: #e75e8d !important;
+        margin: 0;
+    }
+    .profile img{
+        display: none;
+    }
+    .nav-link{
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0 !important;
+    }
+}
